@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AccountService</name>
+    </assembly>
+    <members>
+        <member name="M:AccountService.Controllers.AccountController.Get">
+            <summary>
+            Get all Seller data
+            </summary> 
+        </member>
+        <member name="M:AccountService.Controllers.AccountController.SellerRegister(AccountService.Models.Seller)">
+             <summary>
+             Creates a New Seller.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /SellerRegister
+                 {
+                    "id": 1,
+                    "name": "seller1",
+                    "isComplete": true
+                 }
+            
+             </remarks>
+             <param name="seller"></param>
+             <returns>A newly created SellerRegister</returns>
+             <response code="201">Returns the newly created seller</response>
+             <response code="400">If the seller is null</response>            
+        </member>
+        <member name="M:AccountService.Controllers.AccountController.SellerLogin(System.String,System.String)">
+            <summary>
+            Login as a specific User.
+            </summary>
+            <param name="uname"></param> 
+            <param name="pwd"></param>
+        </member>
+    </members>
+</doc>

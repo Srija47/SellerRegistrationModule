@@ -1,0 +1,65 @@
+2020-05-02 12:07:20.5445||INFO|AccountService.Program|dgfdg 
+2020-05-02 12:07:21.7864||DEBUG|AccountService.Program|init main function 
+2020-05-02 12:08:43.3319||INFO|AccountService.Controllers.AccountController|Login 
+2020-05-02 12:08:49.9331||INFO|AccountService.Controllers.AccountController|Welcome rahul 
+2020-05-02 12:10:19.5443||INFO|AccountService.Controllers.AccountController|Login 
+2020-05-02 12:10:19.7384||INFO|AccountService.Controllers.AccountController|Welcome rahul 
+2020-05-02 12:11:09.1521||INFO|AccountService.Controllers.AccountController|Login 
+2020-05-02 12:11:09.1952||INFO|AccountService.Controllers.AccountController|Welcome rahul 
+2020-05-02 12:25:58.0448||INFO|AccountService.Program|dgfdg 
+2020-05-02 12:25:58.1658||DEBUG|AccountService.Program|init main function 
+2020-05-02 12:27:46.3225||INFO|AccountService.Controllers.AccountController|Login 
+2020-05-02 12:27:48.4005||INFO|AccountService.Controllers.AccountController|Welcome rahul 
+2020-05-02 12:32:33.5528||INFO|AccountService.Controllers.AccountController|Login 
+2020-05-02 12:32:33.9985||INFO|AccountService.Controllers.AccountController|Welcome rahul 
+2020-05-02 12:36:40.3703||INFO|AccountService.Program|dgfdg 
+2020-05-02 12:36:40.4517||DEBUG|AccountService.Program|init main function 
+2020-05-02 12:48:03.4546||INFO|AccountService.Controllers.AccountController|Login 
+2020-05-02 12:48:04.8728|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AccountService.DataManager.SellerDataManager.SellerDtoMapper.MapToDto(Seller seller) in C:\Users\win8.1\source\repos\SellerRegistrationModule-master\Seller-master\AccountService\DataManager\SellerDataManager.cs:line 56
+   at AccountService.DataManager.SellerDataManager.GetDto(String uname, String pwd) in C:\Users\win8.1\source\repos\SellerRegistrationModule-master\Seller-master\AccountService\DataManager\SellerDataManager.cs:line 29
+   at AccountService.Controllers.AccountController.SellerLogin(String uname, String pwd) in C:\Users\win8.1\source\repos\SellerRegistrationModule-master\Seller-master\AccountService\Controllers\AccountController.cs:line 84
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-05-02 12:48:43.8406||INFO|AccountService.Controllers.AccountController|Login 
+2020-05-02 12:48:43.9150||INFO|AccountService.Controllers.AccountController|Welcome rahul 
+2020-05-02 13:09:09.9914||INFO|AccountService.Program|dgfdg 
+2020-05-02 13:09:10.1223||DEBUG|AccountService.Program|init main function 
+2020-05-02 13:09:16.6297||INFO|AccountService.Controllers.AccountController|Login 
+2020-05-02 13:41:54.2887||INFO|AccountService.Program|dgfdg 
+2020-05-02 13:41:54.3892||DEBUG|AccountService.Program|init main function 
+2020-05-02 13:42:50.8174||INFO|AccountService.Controllers.AccountController|Getting All Seller data 
+2020-05-02 14:23:08.9882||INFO|AccountService.Program|dgfdg 
+2020-05-02 14:23:09.1406||DEBUG|AccountService.Program|init main function 
+2020-05-02 14:23:16.4697||INFO|AccountService.Controllers.AccountController|Getting All Seller data 
+2020-05-02 14:33:28.7528||INFO|AccountService.Program|dgfdg 
+2020-05-02 14:33:28.8740||DEBUG|AccountService.Program|init main function 
+2020-05-02 14:33:40.1720||INFO|AccountService.Controllers.AccountController|Getting All Seller data 
+2020-05-02 14:36:51.6158||INFO|AccountService.Program|dgfdg 
+2020-05-02 14:36:51.7203||DEBUG|AccountService.Program|init main function 
+2020-05-02 14:46:37.8191||DEBUG|AccountService.Program|init main function 
+2020-05-02 14:47:07.8899||INFO|AccountService.Controllers.AccountController|Getting All Seller data 
+2020-05-02 14:48:13.8029||DEBUG|AccountService.Program|init main function 
+2020-05-02 14:48:26.7792||INFO|AccountService.Controllers.AccountController|Getting All Seller data 
+2020-05-02 14:54:44.9466||DEBUG|AccountService.Program|init main function 
+2020-05-02 14:54:52.2579||INFO|AccountService.Controllers.AccountController|Getting All Seller data 
+2020-05-02 15:57:35.7613||DEBUG|AccountService.Program|init main function 
+2020-05-02 15:57:57.3834||INFO|AccountService.Controllers.AccountController|Getting All Seller data 
